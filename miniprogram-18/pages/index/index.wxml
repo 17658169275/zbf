@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="box">
+   <view class="title">存款数额</view>
+   <view>
+     <input placeholder="请输入存款本金" type="number" bindblur="benjinNum"></input>
+     <input placeholder="请输入利率" type="number" bindblur="lilvNum"></input>
+     <input placeholder="请输入年数" type="number" bindblur="yearNum"></input>
+   </view>
+   <view>最后所得金额为：{{sum}}</view>
+   <button type="primary" bindtap="calc">所得金额</button>
+</view>
+<view>电科19-2 201923010229 张丙峰 </view>
+ <view>我们可以卑微如尘土，但不可扭曲如蛆虫</view>

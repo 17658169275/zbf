@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="box">
+  <view class="title">彩票号码生成</view>
+  <view>产生的彩票号码为：</view>
+  <view wx:for="{{rand}}">{{item}}</view>
+  <button type="primary" bindtap="newRand">产生新的彩票号码</button>
+</view>
+<view>电科19-2 201923010229 张丙峰 </view>
+ <view>我们可以卑微如尘土，但不可扭曲如蛆虫</view>
